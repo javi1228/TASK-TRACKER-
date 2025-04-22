@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.changelog-container, .task-container {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.changelog-title, .task-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.changelog-list, #taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.changelog-item, #taskList li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.changelog-date {
+  font-weight: bold;
+  display: block;
+  color: #0077cc;
+}
+
+.changelog-desc {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.changelog-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#taskInput {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
